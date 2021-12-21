@@ -1,2 +1,8 @@
 ---
 # vars file for instal-wp
+dbname: wp_db_prd
+dbuser: wp_user_01
+dbpass: "dbpass12@"
+http_port: 8080
+dbhost: 192.168.0.137
+dbport: 3306
