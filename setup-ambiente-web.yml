@@ -1,0 +1,7 @@
+- hosts: awx
+  become: yes
+  user: adminlx
+  roles:
+  - { role: install-db, tags: ["install_db"]}
+  - { role: install-awx, tags: ["install_awx"]}
+    
